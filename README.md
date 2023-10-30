@@ -2,8 +2,8 @@
 ## Optimizing Stock Portfolio using Genetic Algorithm from Scratch
 Portifolio Optimization ( Optimal Asset Allocation / Modern Portfolio Theory ) is a formal mathematical approach in making investment decisions across a collection of financial instruments or assests. To deal with the optimization problem, a quantative model was developed, also called mean-variance model. This model incorporates either the minimization of an objective function representing the portfolio variance ( risk ) for a given level of return or the maximization of an objective function representing the portfolio return for a given level of risk.
 ### Some terms related to Stock Portfolio Otimization
--- Portfolio: The portfolio is a collection of all the investments that an investor has made right from purchasing a share for the first time.
--- Liquidity: Liquidity means how stocks can be sold off quickly. Shares that get sold consist of high trade volumes quickly and are called highly liquid.
+- Portfolio: The portfolio is a collection of all the investments that an investor has made right from purchasing a share for the first time.
+- Liquidity: Liquidity means how stocks can be sold off quickly. Shares that get sold consist of high trade volumes quickly and are called highly liquid.
 -- Alpha: The amount of return expected from an investment from its inherent value.
 -- Appreciation: The increase in value of a financial asset.
 -- Benchmark: A standard, usually an unmanaged index, used for comparative purposes in assessing performance of a portfolio or mutual fund.

@@ -17,5 +17,5 @@ Portifolio Optimization ( Optimal Asset Allocation / Modern Portfolio Theory ) i
 ### Problem Statement and Genetic Algorithm Approach
 - Portfolio containing some N financial assets(stock, funds, bonds, ETF, etc.). Each one of them has many historical returns, that is the price relative difference from one period to another. The goal of portfolio optimization is to find the values of the weights that maximize returns and minimize risk simultaneously of our portfolio under some constraints.
 #### Genetic Algorithm Approach: -
-1)
-2)
+##### Why using Genetic Algorithm Approach?
+Genetic algorithm is an evolutionary algorithm, based on genetics and evolution, is used to deal with computionally complex problems, with large search spaces ( either discrete or continuous ). It works to find out the near optimal solution using stochastic search methods. Principles of GA works on two fundamental biological processes: Geneteics ( producing new solutions ( offsprings ) from the original population of individuals ) and Evolution ( Heredity, Population Diversity, Selection, Ranking ). 

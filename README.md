@@ -23,3 +23,8 @@ Monthly closing stock values of HDFC, ITC, L&T, M&M, Sun Pharma and TCS from Jun
 ##### Genetic Algorithm Approach: -
 1) All the data is combined into one dataframe.
 2) Historical returns for 3, 6, 12, 24, and 36 months are generated as fractions for each stock.
+3) Gene: ( Real Encoding ), a fraction of the total capital assigned to a stock.
+4) Chromosome: set of genes ( 1D array )
+5) Initial Population: set of randomly generated chromosomes ( 2D array )
+6) Fitness Function:
+7) 

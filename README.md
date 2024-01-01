@@ -27,4 +27,20 @@ Monthly closing stock values of HDFC, ITC, L&T, M&M, Sun Pharma and TCS from Jun
 4) Chromosome: set of genes ( 1D array )
 5) Initial Population: set of randomly generated chromosomes ( 2D array )
 6) Fitness Function:
-7) 
+7) The Sharpe ratio, S, is a measure for quantifying the performance (Fitness) of the portfolio which works on "Maximisation of return (mean) and minimisation of risk (Variance) simultaneously" and is computed as follows:
+
+            S = (µ − r)/σ
+
+Here µ is the return of the portfolio over a specified period or Mean portfolio return, 
+     r is the risk-free rate over the same period and 
+     σ is the standard deviation of the returns over the specified period or Standard deviation of portfolio return.
+
+
+Mean portfolio return = Mean Return * Fractions of Total Capital (Chromosome).
+Risk-free rate = 0.0697 ( as per google)
+Standard deviation of portfolio return = (chromosome * Standard deviation)**2 + Covariance * Respective weights in chromosome.
+8) Select Canonical Population
+9) Mutation: A function that will perform mutation in a chromosome. Randomly we shall choose 2 numbers between 0, 5 and those elements we shall swap.
+10) Performing a linear crossover.
+11) Next Generation (define a Function): A function which does mutation,mating or crossover based on a probability and builds a new generation of chromosomes.
+12) Iterate the process: Iterate the whole process till their is no change in maximum returns or for fixed number of iterations.
